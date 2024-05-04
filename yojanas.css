@@ -1,0 +1,109 @@
+body{
+    background: linear-gradient(100deg, green,blue);
+    margin: 0;
+  }
+  .heading {
+    display: flex;
+    width: 100%;
+    background: linear-gradient(10deg, rgb(154, 234, 108), rgb(255, 255, 255));
+    justify-content: center;
+    align-items: center;
+  }
+  .logo img {
+    border-radius: 20%;
+    margin: 3px;
+  }
+  .logo {
+    background-color: white;
+  }
+  .headline {
+    font-size: 2rem;
+    scale: 1;
+    flex-grow: 1;
+    padding-left: 4vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .login {
+    margin-right: 6vw;
+    color: black;
+    background-color: rgb(107, 220, 51);
+    border: 2px double rgb(20, 151, 17);
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+    padding: 3px 3px 3px 3px;
+    margin-left: 20px;
+    scale: 1;
+    transition: scale 0.2s ease;
+    cursor: pointer;
+  }
+  .login:hover {
+    scale: 1.2;
+  }
+  .login a:hover {
+    color: rgb(245, 238, 226);
+  }
+  .login:active {
+    scale: 0.95;
+  }
+  .login a {
+    text-decoration: none;
+  }
+  
+  .item4 {
+    box-shadow:  10px 5px 5px rgb(167, 228, 242);
+    font-size: larger;
+    border: 0.1rem solid;
+    padding: 0.5rem;
+    color:white;
+    background-color: rgba(6, 6, 6, 0.1);
+    
+  }
+  ol{
+    color: white;
+  }
+  li{
+    font-size: larger;
+    font-weight:bolder;
+  }
+  .bolder{
+    font-size: larger;
+    font-weight:bolder;
+  }
+
+  .goog-logo-link{
+    display: none !important;
+  }
+  
+  .goog-te-gadget{
+    color: transparent !important;
+  }
+  
+  #google_translate_element select{
+    background-color:#f6edfd;
+    color:#0a0a0b;
+    border: none;
+    border-radius:3px;
+    padding:6px 8px ;
+  }
+  
+  .VIpgJd-ZVi9od-l4eHX-hSRGPd img{
+    display: none !important;
+  }
+  
+  .VIpgJd-ZVi9od-l4eHX-hSRGPd{
+    line-height: 0;
+    font-size: 0;
+    color: transparent;
+    display: none !important
+  }
+  
+  .goog-te-banner-frame{
+    display:none ;
+    }
+
+  tbody{
+    display: none !important;
+  }
+  
